@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+   "scripts": {
+    "myscript": "npx cucumber-js --require-module ts-node/register --require features/**/*.ts --format allure-cucumberjs/reporter --retry 1",
+    "test": "npx playwright test"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
