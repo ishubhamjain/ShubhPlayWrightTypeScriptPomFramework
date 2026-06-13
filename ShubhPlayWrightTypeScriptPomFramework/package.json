@@ -1,5 +1,5 @@
 {
-  "name": "playwrighttypescript",
+  "name": "shubhplaywrighttypescriptpomframework",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,11 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "@cucumber/cucumber": "^13.0.0",
     "@playwright/test": "^1.60.0",
-    "@types/node": "^25.9.1"
+    "@types/node": "^25.9.1",
+    "allure-cucumberjs": "^3.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
   }
 }
