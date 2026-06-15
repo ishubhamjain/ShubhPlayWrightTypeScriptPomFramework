@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-   "scripts": {
+  "scripts": {
     "myscript": "npx cucumber-js --require-module ts-node/register --require features/**/*.ts --format allure-cucumberjs/reporter --retry 1",
     "test": "npx playwright test"
   },
@@ -12,10 +12,14 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "@azure/identity": "^4.13.1",
+    "@azure/playwright": "^1.1.6",
     "@cucumber/cucumber": "^13.0.0",
     "@playwright/test": "^1.60.0",
     "@types/node": "^25.9.1",
+    "allure-commandline": "^2.42.1",
     "allure-cucumberjs": "^3.10.0",
+    "allure-playwright": "^3.10.0",
     "ts-node": "^10.9.2",
     "typescript": "^6.0.3"
   }

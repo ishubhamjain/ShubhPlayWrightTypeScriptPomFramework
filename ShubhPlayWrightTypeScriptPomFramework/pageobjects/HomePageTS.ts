@@ -14,7 +14,7 @@ export class HomePage {
     constructor(page:Page) {
         this.page = page;
         this.computers = page.locator('a:has-text("COMPUTERS")').first();
-        this.notebooks = page.locator('a').filter({ hasText: 'Notebookss' }).first();
+        this.notebooks = page.locator('a').filter({ hasText: 'Notebooks' }).first();
         this.productTitle = page.locator("h2[class='product-title'] a").first();
         this.addToCartButton = page.locator('input.button-2.product-box-add-to-cart-button').first();
         this.shoppingCart = page.locator('span:has-text("Shopping cart")');
