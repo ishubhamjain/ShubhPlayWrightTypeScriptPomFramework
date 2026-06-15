@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "myscript": "npx cucumber-js --require-module ts-node/register --require features/**/*.ts --format allure-cucumberjs/reporter --retry 1",
-    "test": "npx playwright test"
+    "test": "npx playwright test",
+    "azure-test": "npx playwright test --config=playwright.service.config.ts --workers=2"
   },
   "keywords": [],
   "author": "",
